@@ -13,8 +13,8 @@ window.cipher = {
           newMessage += string[i];
         }
         console.log(newMessage);
-        document.getElementById("codedMessage").innerHTML= newMessage
       }
+      return newMessage;
     },
 
     decode: (offSet, string)=>{ 
@@ -26,12 +26,12 @@ window.cipher = {
         } else if (ascii>= 97 && ascii<= 122){
           newMessage += String.fromCharCode ((122-(122 - ascii + parseInt(offSet)) % 26));
         } else if (ascii>=48 && ascii<=57){
-          newMessage += String.fromCharCode ((ascii - 48 - parseInt(offSet)) % 10 + 48);
+          newMessage += String.fromCharCode ((57-(57 - ascii + parseInt(offSet)) % 10));
         } else {
           newMessage += string[i];
         }
         console.log(newMessage);
-        document.getElementById("codedMessage").innerHTML= newMessage
       }
-    },
+      return newMessage;
+    }
 };

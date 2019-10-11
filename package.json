@@ -13,9 +13,11 @@
   },
   "dependencies": {
     "eslint": "^5.9.0",
-    "htmlhint": "^0.11.0",
-    "jest": "^24.9.0",
     "opener": "^1.5.1",
     "serve": "^11.0.0"
+  },
+  "devDependencies": {
+    "htmlhint": "^0.11.0",
+    "jest": "^24.9.0"
   }
 }

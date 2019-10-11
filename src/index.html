@@ -8,25 +8,23 @@
   <body>
     <div id="root">
       <!-- Aquí creo la pantalla de inicio -->
-      <div class="pantallaInicio"id="primeraPantalla">
-        <button type="button"id="inicio">CIPHER</button>
+      <div id="primeraPantalla">
+        <button type="button" id="inicio">CIPHER</button>
       </div>
-
       <!-- Aquí creo la pantalla principal -->
       <div id="pantallaPrincipal">
-
         <!-- Caja para ingresar mensaje -->
-        <textarea id="message" placeholder="[Escribe tu mensaje aquí]"></textarea><br>
-
+      <form>
+        <textarea id="message" placeholder="[Escribe tu mensaje aquí]"></textarea>
         <!-- Offset -->
-        <input type="number" class="numero" id="offset" placeholder="Offset"><br>
-
+        <input type="number" class="numero" id="offset" placeholder="Offset">
         <!-- Botones para codificar y decodificar -->
         <button type="button" id="encoder">Codificar</button>
         <button type="button" id="decoder">Decodificar</button>
-
+        <button type="reset" id="limpiar">Limpiar</button>
         <!-- Caja de mensaje codificado -->
         <textarea id="codedMessage"></textarea>
+      </form> 
       </div>
     </div>
     <script src="cipher.js"></script>
