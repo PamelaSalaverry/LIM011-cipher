@@ -1,3 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,600,800|Roboto+Mono&display=swap');
+/* Escondo pantallas */
 .hide {
     display: none
+}
+/* Parametros generales */
+body {
+    background-color: #212121;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    color: white;
+}
+/* Botón de presentación */
+.botonEntrar {
+    position: absolute;
+    border: 10px solid #7A2C88;
+    background-color: #212121;
+    width: 500px;
+    height: 170px;
+    left: 33%;
+    top: 33%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    color: white;
+    font-weight: 800;
+}
+/* Texto de home */
+h1 {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 60px;
+    font-weight: 600;
+}
+/* Botones que dirigen a formularios */
+#pantallaCodificar {
+    position: absolute;
+    border: 10px solid #7A2C88;
+    background-color: #212121;
+    width: 250px;
+    height: 250px;
+    left: 28%;
+    top: 45%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+}
+#pantallaDecodificar {
+    position: absolute;
+    border: 10px solid #7A2C88;
+    background-color: #212121;
+    width: 250px;
+    height: 250px;
+    right: 28%;
+    top: 45%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+/* Formulario */
+form {
+    font-size: 16px;
+    margin-left: 20%
+}
+p {
+    margin: 0;
+    margin-top: 2%
+}
+.botonIzq {
+    position: absolute;
+    border: 3px solid #7A2C88;
+    background-color: #212121;
+    width: 150px;
+    height: 40px;
+    left: 35%;
+    top: 80%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+.botonDer {
+    position: absolute;
+    border: 3px solid #7A2C88;
+    background-color: #212121;
+    width: 150px;
+    height: 40px;
+    right: 35%;
+    top: 80%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+input {
+    font-family: monospace;
+    height: 10px;
+    padding: 10px;
+    background-color: #C097C6;
+    border: 3px solid #7A2C88;
+}
+.nombres {
+    width: 500px;
+}
+.offset {
+    width: 100px;
+    margin-left: 60%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+textarea {
+    resize: none;
+    width: 825px;
+    padding: 10px;
+    background-color: #C097C6;
+    border: 3px solid #7A2C88;
+}
+#save {
+    position: absolute;
+    border: 3px solid #7A2C88;
+    background-color: #212121;
+    width: 150px;
+    height: 40px;
+    right: 45%;
+    top: 80%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+img {
+    margin-left: 20px;
+}
+header {
+    text-align: right;
+    margin-right: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
 }

@@ -6,25 +6,84 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header><b>#METOO</b></header>
     <div id="root">
       <!-- Aquí creo la pantalla de inicio -->
-      <div id="primeraPantalla">
-        <button type="button" id="inicio">CIPHER</button>
+      <div id="presentation">
+        <button class="botonEntrar" type="button" id="inicio">CIPHER</button>
       </div>
       <!-- Aquí creo la pantalla principal -->
-      <div id="pantallaPrincipal">
-        <!-- Caja para ingresar mensaje -->
-      <form>
-        <textarea id="message" placeholder="[Escribe tu mensaje aquí]"></textarea>
-        <!-- Offset -->
-        <input type="number" class="numero" id="offset" placeholder="Offset">
-        <!-- Botones para codificar y decodificar -->
-        <button type="button" id="encoder">Codificar</button>
-        <button type="button" id="decoder">Decodificar</button>
-        <button type="reset" id="limpiar">Limpiar</button>
-        <!-- Caja de mensaje codificado -->
-        <textarea id="codedMessage"></textarea>
-      </form> 
+      <div id="home">
+        <h1>¿Qué deseas hacer?</h1>
+        <button id="pantallaCodificar">Codificar</button>
+        <button id="pantallaDecodificar">Decodificar</button>
+      </div>
+      <!-- Aquí creo la pantalla para codificar -->
+      <div id="functionEncode">
+        <div class="volver" id="regresarHome"><img src="flechaRetroceso.png" alt="Volver"></div>
+        <form action="">
+          <p>DENUNCIANTE</p>
+          <input class="nombres" id="nombreVictima" type="text">
+          <div class="offset">
+          <p>CLAVE</p>
+          <input id="offsetCodificar" type="number">
+          </div>
+          <p>AGRESOR</p>
+          <input class="nombres" id="nombreAgresor" type="text">
+          <p>TESTIMONIO</p>
+          <textarea id="testimonio" cols="55" rows="10"></textarea>
+          <!-- Botones de la pantalla para codificar -->
+          <button class="botonIzq" type="reset">Limpiar</button>
+          <button class="botonDer" type="button" id="encoder">Codificar</button>
+        </form>
+      </div>
+      <!-- Aquí se muestra pantalla con la info codificada -->
+      <div id="codedScreen">
+          <div class="volver" id="regresarCodificar"><img src="flechaRetroceso.png" alt="Volver"></div>
+        <form action="">
+          <p>DENUNCIANTE</p>
+          <input class="nombres" id="nombreVictimaCodificada" type="text">
+          <p>AGRESOR</p>
+          <input class="nombres" id="nombreAgresorCodificado" type="text">
+          <p>TESTIMONIO</p>
+          <textarea id="testimonioCodificado" cols="55" rows="10"></textarea>
+          <!-- Botones de la pantalla para codificar -->
+          <button type="button" id="save">Guardar</button>
+        </form>
+      </div>
+      <!-- Aquí creo la pantalla para decodificar -->
+      <div id="functionDecode">
+          <div class="volver" id="regresarHome-1"><img src="flechaRetroceso.png" alt="Volver"></div>
+        <form action="">
+          <p>DENUNCIANTE</p>
+          <input class="nombres" id="nombreVictimaCodificada-1" type="text">
+          <div class="offset">
+          <p>CLAVE</p>
+          <input id="offsetDecodificar" type="number">
+          </div>
+          <p>AGRESOR</p>
+          <input class="nombres" id="nombreAgresorCodificado-1" type="text">
+          <p>TESTIMONIO</p>
+          <textarea id="testimonioCodificado-1" cols="55" rows="10"></textarea>
+          <!-- Botones de la pantalla para decodificar -->
+          <button class="botonIzq" type="reset">Limpiar</button>
+          <button class="botonDer" type="button" id="decoder">Decodificar</button>
+        </form>
+      </div>
+      <!-- Aquí se muestra la pantalla con la info decodificada -->
+      <div class="volver" id="decodedScreen">
+          <div id="regresarDecodificar"><img src="flechaRetroceso.png" alt="Volver"></div>
+        <form action="">
+          <p>DENUNCIANTE</p>
+          <input class="nombres" id="nombreVictima-1" type="text">
+          <p>AGRESOR</p>
+          <input class="nombres" id="nombreAgresor-1" type="text">
+          <p>TESTIMONIO</p>
+          <textarea id="testimonio-1" cols="55" rows="10"></textarea>
+          <!-- Botones de la pantalla para codificar -->
+          <button class="botonIzq" type="reset">Limpiar</button>
+          <button class="botonDer" type="button" id="backHome">Inicio</button>
+        </form>
       </div>
     </div>
     <script src="cipher.js"></script>
