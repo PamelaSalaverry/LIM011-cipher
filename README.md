@@ -9,19 +9,18 @@
 ***
 
 ## 1. Resumen del proyecto
-Resumen e imagen final del proyecto
-**CIPHER** es una app que busca crear mayor seguridad a los testimonios -de las victimas de abuso o algún tipo de violencia- que hayan sido enviados a las redes sociales del movimiento **MeToo**.
+**CIPHER** es una app que busca crear mayor seguridad en los testimonios, de las víctimas de abuso o algún tipo de violencia, que hayan sido enviados a las redes sociales del movimiento **MeTooPerú**.
 
 ## 2. Investigación UX
 
 #### ¿Quiénes son los usuarios?
-El usuario de esta app es **MeTooPerú**, movimiento viral iniciado por mujeres norteamericanas creado para denunciar a hombres del medio público por ejercer violencia hacia mujeres y diversidades.
+El usuario de esta app es **MeTooPerú**. M,ovimiento viral iniciado por mujeres norteamericanas, creado para denunciar a hombres del medio público por ejercer violencia hacia mujeres y diversidades.
 Me Too Perú surge como una plataforma virtual que recopila la voz anónima de mujeres y diversidades que deciden hacer su caso visible. Esta plataforma tiene como principales objetivos:
-- Proteger la identidad de las victimas y/o denunciantes
+- Proteger la identidad de las víctimas y/o denunciantes
 - Ser vigilantes con las denuncia
 
 #### Resolviendo necesidades
-Teniendo como base las objetivos planteados por esta plataforma
+Teniendo como base los objetivos planteados por esta plataforma
 #### Primer prototipo
 Prototipo papel y feedback de mejoras
 #### Prototipo final
