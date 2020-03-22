@@ -21,9 +21,9 @@ Me Too Perú surge como una plataforma virtual que recopila la voz anónima de m
 
 #### Resolviendo necesidades
 Teniendo como base los objetivos planteados por esta plataforma
-#### Primer prototipo
+##### Primer prototipo
 Prototipo papel y feedback de mejoras
-#### Prototipo final
+##### Prototipo final
 Imagen prototipo final
 [](PrototipoFinalFigma.png)
 ## 3. Objetivos de aprendizaje Cipher
