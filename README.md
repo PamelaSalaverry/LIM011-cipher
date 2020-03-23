@@ -34,8 +34,11 @@ Se concluyó que era necesario colocar una opción de retroceso para poder naveg
 
 #### Prototipo final
 Agregando los comentarios del testeo del prototipo inicial en papel se procedió a hacer el diseño en [Figma](www.figma.com/proto/OuS6EQyqgKfWpTMjHtoczx/Cipher-final?node-id=12%3A2&viewport=128%2C279%2C0.20244023203849792&scaling=min-zoom) donde se le añadió interacción para la realización de un testeo final.
+
 ![prototipo-final](PrototipoFinalFigma.png)
 ## 3. Next steps
+- Permitir codificar y decodoficar en la misma pantalla
+- Diseño responsive
 
 ## 4. Objetivos de aprendizaje Cipher
 ​
