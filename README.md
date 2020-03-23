@@ -4,7 +4,7 @@
 
 * [1. Resumen del proyecto](#1-resumen-del-proyecto)
 * [2. Investigación UX](#2-investigación-ux)
-* [3. Next steps] (#3-next-steps)
+* [3. Next steps](#3-next-steps)
 * [4. Objetivos de aprendizaje cipher](#4-objetivos-de-aprendizaje-cipher)
 
 ***
@@ -24,11 +24,11 @@ Me Too Perú surge como una plataforma virtual que recopila la voz anónima de m
 Teniendo como base los objetivos planteados por esta plataforma se realizaron los siguientes pasos:
 #### Entrevistas
 Breve entrevista a tres personas para conocer su cercanía a las redes sociales de Me Too Perú y la seguridad que creen esta les puede brindar
-​
+
 ![post-it-entrevistas](post-it-entrevistas.jpeg)
 #### Primer prototipo
 Realización de primer prototipo en papel que fue testeado con 3 usuarios
-​
+
 ![prototipo-papel](portotipo-papel.jpeg)
 Se concluyó que era necesario colocar una opción de retroceso para poder navegar con mayor facilidad entre las pantallas.
 
