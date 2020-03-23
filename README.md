@@ -13,19 +13,25 @@
 
 ## 2. Investigación UX
 
-#### ¿Quiénes son los usuarios?
+### ¿Quiénes son los usuarios?
 El usuario de esta app es **MeTooPerú**. M,ovimiento viral iniciado por mujeres norteamericanas, creado para denunciar a hombres del medio público por ejercer violencia hacia mujeres y diversidades.
 Me Too Perú surge como una plataforma virtual que recopila la voz anónima de mujeres y diversidades que deciden hacer su caso visible. Esta plataforma tiene como principales objetivos:
 - Proteger la identidad de las víctimas y/o denunciantes
 - Ser vigilantes con las denuncia
 
-#### Resolviendo necesidades
-Teniendo como base los objetivos planteados por esta plataforma
-##### Primer prototipo
-Prototipo papel y feedback de mejoras
-##### Prototipo final
+### Resolviendo necesidades
+Teniendo como base los objetivos planteados por esta plataforma se realizaron los siguientes pasos:
+#### Entrevistas
+Breve entrevista a tres personas para conocer su cercanía a las redes sociales de Me Too Perú y la seguridad que creen esta les puede brindar
+![post-it-entrevistas](post-it-entrevistas.jpeg)
+#### Primer prototipo
+Realización de primer prototipo en papel que fue testeado con 3 usuarios
+![prototipo-papel](portotipo-papel.jpeg)
+Se concluyó que era necesario colocar una opción de retroceso para poder navegar con mayor facilidad entre las pantallas.
+
+#### Prototipo final
 Imagen prototipo final
-[](PrototipoFinalFigma.png)
+![prototipo-final](PrototipoFinalFigma.png)
 ## 3. Objetivos de aprendizaje Cipher
 ​
 A continuación te presentamos los objetivos de aprendizaje de este proyecto. Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplicar** en tu proyecto.
