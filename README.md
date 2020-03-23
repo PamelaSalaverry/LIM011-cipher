@@ -37,7 +37,7 @@ Agregando los comentarios del testeo del prototipo inicial en papel se procedió
 
 ![prototipo-final](PrototipoFinalFigma.png)
 ## 3. Next steps
-- Permitir codificar y decodoficar en la misma pantalla
+- Permitir codificar y decodificar en la misma pantalla
 - Diseño responsive
 
 ## 4. Objetivos de aprendizaje Cipher
