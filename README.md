@@ -29,7 +29,7 @@ Breve entrevista a tres personas para conocer su cercanía a las redes sociales 
 #### Primer prototipo
 Realización de primer prototipo en papel que fue testeado con 3 usuarios
 
-![prototipo-papel](portotipo-papel.jpeg)
+![prototipo-papel](prototipo-papel.jpeg)
 Se concluyó que era necesario colocar una opción de retroceso para poder navegar con mayor facilidad entre las pantallas.
 
 #### Prototipo final
